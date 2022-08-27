@@ -1,0 +1,90 @@
+body{
+    font-weight: bold;
+}
+small{
+    font-weight: 100;
+}
+.image{
+    width: 30%;
+    height: 100vh;
+}
+h1{
+    text-align: center;
+}
+form{
+    width: 50%;
+    margin: auto;   
+}
+.form-control{
+    border: 1px solid black;
+    border-radius: 0px;
+}
+.form-check-input:checked{
+    background: #FF7900;
+    border: 1px solid black;
+    color: black;
+}
+
+#btn{
+    background-color:#FF7900;
+}
+#btn:hover{
+    background-color: black;
+    color:white;
+}
+
+#log:hover{
+    color:white;
+    
+}
+#log>a:hover{
+    color:white;
+}
+span{
+    color: #FF7900;
+}
+.error{
+    color:red;
+}
+
+.eye{
+    width: 100%;
+ position: relative;
+ 
+}
+.bi{
+
+ display: flex;
+ align-items: center;
+ position: absolute;
+ height: 100%;
+ top: 0;
+ right: 0;
+ padding-right: 1px;
+ margin-right: 2%;
+}
+/*sign in*/
+#sign{
+    text-align: left;
+}
+a{
+    color: black;
+    margin: 10px;
+}
+a:hover{
+    color:#FF7900;
+}
+
+
+
+@media (max-width:900px) {
+
+    .image{
+        display:none;
+    }
+    form{
+        width: 80%;
+        margin: auto;
+    }
+    
+}
